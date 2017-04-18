@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer has consistent render output 1`] = `
+<div
+  className="bank"
+>
+  <div
+    className="bank-section bank__balance bank-balance"
+  >
+    <div
+      className="bank-balance__text"
+    >
+      Your current balance is: 
+    </div>
+    <div
+      className="bank-balance__amount"
+    >
+      $
+      0.00
+    </div>
+  </div>
+  <div
+    className="bank-section"
+  >
+    <div
+      className="bank-section__cta"
+    >
+      Deposit Funds
+    </div>
+    <div
+      className="bank-section__form"
+    >
+      <div
+        className="bank-form"
+      >
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <button
+          className="bank-form__deposit-button"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bank-section"
+  >
+    <div
+      className="bank-section__cta"
+    >
+      Withdraw Funds
+    </div>
+    <div
+      className="bank-section__form"
+    >
+      <div
+        className="bank-form"
+      >
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <button
+          className="bank-form__withdraw-button"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bank-section"
+  >
+    <div
+      className="bank-section__cta"
+    >
+      Show Recent Transactions
+    </div>
+    <div
+      className="bank-recent-transactions"
+    >
+      <div
+        className="divTable"
+      >
+        <div
+          className="divTableBody"
+        >
+          <div
+            className="divTableRow"
+          >
+            <div
+              className="divTableRow"
+            >
+              <div
+                className="divTableCell"
+              >
+                Date
+              </div>
+              <div
+                className="divTableCell"
+              >
+                Amount
+              </div>
+              <div
+                className="divTableCell"
+              >
+                Balance
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

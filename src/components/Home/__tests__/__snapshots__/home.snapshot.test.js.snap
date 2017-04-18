@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home has consistent render output 1`] = `<MainContainer />`;

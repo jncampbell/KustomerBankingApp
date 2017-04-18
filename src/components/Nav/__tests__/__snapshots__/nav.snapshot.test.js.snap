@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav has consistent render output 1`] = `
+<nav
+  className="site-nav"
+>
+  <div
+    className="site-nav__logo"
+  >
+    <img
+      src="./assets/money-bag.png"
+    />
+  </div>
+</nav>
+`;
